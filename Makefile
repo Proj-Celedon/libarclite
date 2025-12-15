@@ -11,7 +11,7 @@ SHAREDLIB = $(SONAME).69.0
 STATICLIB = libarclite.a
 
 EXTRA_CFLAGS = -std=c99 -Wall -Wextra -fPIC
-LDFLAGS = -framework CoreFoundation -lobjc -lsystem_blocks -ldispatch
+LDFLAGS = -framework CoreFoundation -framework Foundation -lobjc -lsystem_blocks -ldispatch
 
 OBJS = ARC.o
 
